@@ -1,5 +1,5 @@
 {
-  "name": "next-build-test",
+  "name": "testing-proof-lab",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.1.3"
   },
   "devDependencies": {
     "typescript": "^5",
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.1"
-  }
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.3",
+    "@eslint/eslintrc": "^3"
+  },
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
 }
